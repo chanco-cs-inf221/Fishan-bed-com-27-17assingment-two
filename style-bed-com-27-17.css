@@ -1,0 +1,72 @@
+body{
+	border:  3px solid;
+	margin: 10px auto;
+	background-color: rgb(240, 3, 3);
+	padding: 10px;
+
+}
+
+a{
+	color: blue;
+}
+img{
+	text-align: center;
+	border-radius: 50%;
+}
+.image{
+	text-align: center;
+	font-size: 16;
+	border: solid;
+}
+
+h4{
+	font-size:17px;
+}
+.box1{
+	width: 95.4%;
+	padding: 21px;
+	border: solid;
+	overflow: hidden;
+	background: black;
+	margin:  20px auto;
+}
+.box1 ul{
+	
+	border: solid;
+	padding: auto;
+	margin: auto;
+}
+.box1 ul li{
+	border: solid;
+	 background: blue;
+	 list-style: none;
+	float: left;
+	 width: 20%;
+	 height: 300px;
+	 margin: 30px 30px 0px
+
+}
+.box1 ul li .title{
+	
+	height: auto;
+	width: 100%;
+	text-align: center;
+	background: red;
+	
+}
+.box-worke{
+	padding: 21px;
+	text-align: left;
+	font-size-adjust: 16;
+	border: solid;
+	
+}
+.footer{
+
+	text-align: center;
+}
+@media only screen and (max-width: 600px) {
+	body {
+	  background-color: lightblue;
+	}
+  }
